@@ -1,7 +1,7 @@
 
 import mysql.connector
 
-# DATABASE CONNECTION
+# STUDENT MANAGEMENT SYSTEM 
 def connect_db():
     return mysql.connector.connect(
         host="localhost",
